@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Meesala Lokesh</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --text: #1e293b;
+      --text-light: #64748b;
+      --border: #e2e8f0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      color: var(--text);
+      line-height: 1.5;
+      padding: 40px;
+      background: #f1f5f9;
+    }
+    .page {
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 50px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    h1 { font-size: 2.5rem; color: var(--text); margin-bottom: 5px; }
+    .subtitle { font-size: 1.1rem; color: var(--primary); font-weight: 600; }
+    .contact-info { text-align: right; font-size: 0.9rem; color: var(--text-light); }
+    .contact-info a { color: var(--primary); text-decoration: none; }
+    
+    section { margin-bottom: 30px; }
+    h2 { 
+      font-size: 1.25rem; 
+      text-transform: uppercase; 
+      letter-spacing: 1px; 
+      color: var(--text); 
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+      margin-bottom: 15px;
+    }
+    
+    .item { margin-bottom: 20px; }
+    .item-header { display: flex; justify-content: space-between; font-weight: 700; margin-bottom: 3px; }
+    .item-sub { color: var(--text-light); font-size: 0.9rem; margin-bottom: 8px; font-style: italic; }
+    .item p { font-size: 0.95rem; color: var(--text-light); }
+    
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .skill-cat strong { font-size: 0.9rem; display: block; margin-bottom: 5px; color: var(--text); }
+    .skill-list { font-size: 0.9rem; color: var(--text-light); }
+
+    .cert-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      font-size: 0.9rem;
+    }
+    .cert-item { display: flex; align-items: center; gap: 8px; color: var(--text-light); }
+
+    .print-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--primary);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      z-index: 100;
+      cursor: pointer;
+    }
+
+    @media print {
+      body { background: #fff; padding: 0; }
+      .page { box-shadow: none; padding: 0; max-width: 100%; }
+      .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+    <header>
+      <div>
+        <h1>Meesala Lokesh</h1>
+        <div class="subtitle">Aspiring Full Stack Developer</div>
+      </div>
+      <div class="contact-info">
+        <p>Visakhapatnam, Andhra Pradesh</p>
+        <p><a href="mailto:lokeshmeesala05@gmail.com">lokeshmeesala05@gmail.com</a></p>
+        <p><a href="https://github.com/lokeshmeesala05-commits">GitHub</a> | <a href="https://www.linkedin.com/in/lokesh-meesala-612766330">LinkedIn</a></p>
+      </div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>B.Tech — Computer Science & Engineering</span>
+          <span>2024 — Present</span>
+        </div>
+        <div class="item-sub">Vignan's Institute of Information Technology, Visakhapatnam</div>
+        <p>Currently in 3rd Semester. SGPA: 9.41 (Sem 1), 9.60 (Sem 2), 9.21 (Sem 3).</p>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <span>Intermediate (MPC)</span>
+          <span>2022 — 2024</span>
+        </div>
+        <div class="item-sub">SR Junior College, Gajuwaka</div>
+        <p>Completed with 96.8% aggregate.</p>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <span>Secondary School Certificate (SSC)</span>
+          <span>2021 — 2022</span>
+        </div>
+        <div class="item-sub">Zilla Parishad High School, Islampeta</div>
+        <p>Completed with 89% aggregate.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-cat">
+          <strong>Programming Languages</strong>
+          <div class="skill-list">C, Java, Python, JavaScript (ES6+)</div>
+        </div>
+        <div class="skill-cat">
+          <strong>Frontend & CSS</strong>
+          <div class="skill-list">HTML5, CSS3, React.js</div>
+        </div>
+        <div class="skill-cat">
+          <strong>Backend & Tools</strong>
+          <div class="skill-list">Node.js, Express.js, MySQL, Git, GitHub</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>Personal Portfolio Website</span>
+          <span>March 2026</span>
+        </div>
+        <div class="item-sub">HTML, CSS, JavaScript</div>
+        <p>Published a modern, responsive portfolio featuring dynamic content rendering, dark/light modes, and a custom design system. Integrated with Formspree for contact functionality.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-item">✓ HTML5 Certification</div>
+        <div class="cert-item">✓ CSS3 Certification</div>
+        <div class="cert-item">✓ JavaScript Basic & Advanced</div>
+        <div class="cert-item">✓ Java Programming</div>
+        <div class="cert-item">✓ Python Programming</div>
+        <div class="cert-item">✓ DBMS (SQL) Certification</div>
+        <div class="cert-item">✓ C Programming</div>
+        <div class="cert-item">✓ Yes+ Program (Youth Empowerment)</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Achievements</h2>
+      <div class="item">
+        <div class="item-header">
+          <span>Competitive Programming</span>
+          <span>Ongoing</span>
+        </div>
+        <p>Active participant on CodeChef and LeetCode, focusing on Data Structures and Algorithms to solve complex logical problems efficiently.</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="print-btn" onclick="window.print()">
+    <span>📄 Print / Save as PDF</span>
+  </div>
+
+</body>
+</html>
