@@ -69,13 +69,13 @@ const DATA = {
 
   projects: [
     {
-      title: "Personal Portfolio Website",
-      description: "A modern, responsive portfolio website built with HTML, CSS, and JavaScript featuring dark/light mode, smooth animations, and a dynamic design system.",
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/lokeshmeesala05-commits",
-      live: "#",
-      color: "linear-gradient(135deg, #6366f1, #8b5cf6)",
-      icon: "🌐",
+      title: "Future Full Stack — Portfolio Project",
+      description: "A modern, professional, and fully responsive personal portfolio website developed as Task-01 of the Future Full Stack program. It showcases technical skills, projects, and achievements with a sleek dark-themed design.",
+      tags: ["HTML5", "CSS3", "JavaScript", "FontAwesome"],
+      github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_01",
+      live: "https://lokeshmeesala05-commits.github.io/FUTURE_FS_01/",
+      color: "linear-gradient(135deg, #00d2ff, #3a7bd5)",
+      icon: "💎",
     },
   ],
 

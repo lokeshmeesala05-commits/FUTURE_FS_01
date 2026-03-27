@@ -673,6 +673,7 @@ h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); font-weight: 700; line-hei
   position: absolute;
   inset: 0;
   background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,.3));
+  pointer-events: none;
 }
 
 .project-overlay {
@@ -685,6 +686,7 @@ h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); font-weight: 700; line-hei
   gap: 16px;
   opacity: 0;
   transition: opacity var(--duration) var(--ease);
+  z-index: 10;
 }
 
 .project-card:hover .project-overlay { opacity: 1; }
