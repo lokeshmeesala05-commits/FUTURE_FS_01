@@ -90,6 +90,16 @@
       cursor: pointer;
     }
 
+    @media (max-width: 768px) {
+      body { padding: 20px; }
+      .page { padding: 30px; }
+      header { flex-direction: column; align-items: flex-start; gap: 15px; }
+      .contact-info { text-align: left; }
+      .item-header { flex-direction: column; gap: 5px; }
+      .skills-grid, .cert-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 2rem; }
+    }
+
     @media print {
       body { background: #fff; padding: 0; }
       .page { box-shadow: none; padding: 0; max-width: 100%; }

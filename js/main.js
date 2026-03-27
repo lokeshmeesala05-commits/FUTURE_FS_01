@@ -16,7 +16,7 @@ const DATA = {
     github: "https://github.com/lokeshmeesala05-commits",
     linkedin: "https://www.linkedin.com/in/lokesh-meesala-612766330",
     codechef: "https://www.codechef.com/users/lokeshmeesala",
-    leetcode: "https://leetcode.com/u/lokeshmeesala",
+    leetcode: "https://leetcode.com/u/lokesh_meesala_05",
   },
 
   typewriterWords: [
@@ -132,7 +132,7 @@ const DATA = {
     {
       date: "Present",
       title: "LeetCode",
-      link: "https://leetcode.com/u/lokeshmeesala",
+      link: "https://leetcode.com/u/lokesh_meesala_05",
       company: "Data Structures & Algorithms",
       description: "Regularly practicing DSA problems to strengthen problem-solving logic and interview preparation.",
     },
