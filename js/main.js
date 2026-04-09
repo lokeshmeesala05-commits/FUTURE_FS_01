@@ -172,7 +172,7 @@ const DATA = {
   ],
 
   achievements: [
-    { name: "Full Stack Web Development", icon: "🚀", file: "bootcamp_certificate.png", description: "Successfully completed an intensive bootcamp covering modern full-stack technologies." },
+    { name: "Ignite Bootcamp — Wadhwani Foundation", icon: "🚀", file: "bootcamp_certificate.png", description: "Successfully completed the 'Idea to Plan' bootcamp, gaining skills in ideation, prototyping, and business modeling." },
     { name: "Yes+ Program", icon: "🌟", file: "yes+.jpeg", description: "Youth Empowerment and Skills Workshop" },
   ],
 
