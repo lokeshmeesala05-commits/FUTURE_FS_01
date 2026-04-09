@@ -59,8 +59,9 @@ const DATA = {
       icon: "⚙️",
       description: "Server-side & data storage",
       items: [
-        { name: "Node.js", icon: "🟢", level: 5 },
-        { name: "Express.js", icon: "🚂", level: 5 },
+        { name: "Node.js", icon: "🟢", level: 72 },
+        { name: "Express.js", icon: "🚂", level: 70 },
+        { name: "Supabase", icon: "⚡", level: 68 },
         { name: "MySQL", icon: "🐬", level: 72 },
         { name: "Git / GitHub", icon: "🔀", level: 78 },
       ],
@@ -69,8 +70,18 @@ const DATA = {
 
   projects: [
     {
-      title: "Future Full Stack — Portfolio Project",
-      description: "A modern, professional, and fully responsive personal portfolio website developed as Task-01 of the Future Full Stack program. It showcases technical skills, projects, and achievements with a sleek dark-themed design.",
+      title: "CRM Pro — Full-Stack Application",
+      description: "A production-ready Customer Relationship Management system featuring real-time authentication, lead management, and contact pipelines. Built with Node.js, React, and Supabase for high scalability.",
+      tags: ["React.js", "Node.js", "Express.js", "Supabase", "Tailwind CSS"],
+      github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_02",
+      live: "https://future-fs-02-h9a4yc1bu-lokeshmeesala05-commits-projects.vercel.app/",
+      color: "linear-gradient(135deg, #6366f1, #a855f7)",
+      image: "img/crm_project.png",
+      icon: "💼",
+    },
+    {
+      title: "Personal Portfolio Website",
+      description: "A modern, professional, and fully responsive personal portfolio website. It showcases technical skills, projects, and achievements with a sleek dark-themed design and smooth animations.",
       tags: ["HTML5", "CSS3", "JavaScript", "FontAwesome"],
       github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_01",
       live: "https://lokeshmeesala05-commits.github.io/FUTURE_FS_01/",
@@ -161,6 +172,7 @@ const DATA = {
   ],
 
   achievements: [
+    { name: "Full Stack Web Development", icon: "🚀", file: "bootcamp_certificate.png", description: "Successfully completed an intensive bootcamp covering modern full-stack technologies." },
     { name: "Yes+ Program", icon: "🌟", file: "yes+.jpeg", description: "Youth Empowerment and Skills Workshop" },
   ],
 
