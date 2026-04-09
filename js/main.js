@@ -84,6 +84,7 @@ const DATA = {
       github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_03.git",
       live: "https://future-fs-03-six-nu.vercel.app/",
       color: "linear-gradient(135deg, #1e3a8a, #d4af37)",
+      image: "img/tailoring_project.png",
       icon: "✂️",
     },
   ],
@@ -440,8 +441,8 @@ function renderProjects() {
     .map(
       (p) => `
     <div class="project-card reveal">
-      <div class="project-image" style="background: ${p.color}">
-        <div class="project-icon">${p.icon}</div>
+      <div class="project-image" style="background: ${p.image ? `url(${p.image}) center/cover` : p.color}">
+        ${p.image ? '' : `<div class="project-icon">${p.icon}</div>`}
         <div class="project-overlay">
           <a href="${p.github}" target="_blank" rel="noopener" aria-label="GitHub">🔗</a>
           <a href="${p.live}" target="_blank" rel="noopener" aria-label="Live Demo">🌐</a>
