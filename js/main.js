@@ -75,6 +75,7 @@ const DATA = {
       github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_01",
       live: "https://lokeshmeesala05-commits.github.io/FUTURE_FS_01/",
       color: "linear-gradient(135deg, #00d2ff, #3a7bd5)",
+      image: "img/portfolio_project.png",
       icon: "💎",
     },
     {
