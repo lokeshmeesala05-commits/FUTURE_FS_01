@@ -77,6 +77,15 @@ const DATA = {
       color: "linear-gradient(135deg, #00d2ff, #3a7bd5)",
       icon: "💎",
     },
+    {
+      title: "PRABHU TAILORS Website",
+      description: "A professional, modern, and mobile-friendly landing page for a local tailoring and clothing store. Features glassmorphism, scroll-triggered animations, and integrated contact options via Call and WhatsApp.",
+      tags: ["HTML5", "CSS3", "JavaScript", "FontAwesome", "Google Fonts"],
+      github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_03.git",
+      live: "https://future-fs-03-six-nu.vercel.app/",
+      color: "linear-gradient(135deg, #1e3a8a, #d4af37)",
+      icon: "✂️",
+    },
   ],
 
   education: [
