@@ -45,7 +45,7 @@ myportfolio/
 
 ## 👨‍💻 Author
 **Meesala Lokesh**
-- 2nd Year B.Tech CSE Student @ VIIT, Visakhapatnam
+- 3rd Year B.Tech CSE Student @ VIIT, Visakhapatnam
 - [GitHub](https://github.com/lokeshmeesala05-commits)
 - [LinkedIn](https://www.linkedin.com/in/lokesh-meesala-612766330)
 - [LeetCode](https://leetcode.com/u/lokesh_meesala_05)

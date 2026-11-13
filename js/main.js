@@ -8,7 +8,7 @@ const DATA = {
     name: "Meesala Lokesh",
     initials: "ML",
     role: "Aspiring Full Stack Developer",
-    tagline: "A passionate 2nd year B.Tech CSE student who loves building web applications and solving problems through code. Always eager to learn, create, and contribute to real-world projects.",
+    tagline: "A passionate 3rd year B.Tech CSE student who loves building web applications and solving problems through code. Always eager to learn, create, and contribute to real-world projects.",
     email: "lokeshmeesala05@gmail.com",
     phone: "",
     location: "Visakhapatnam, Andhra Pradesh",
@@ -28,7 +28,7 @@ const DATA = {
   ],
 
   about: {
-    summary: "I'm Meesala Lokesh, a 2nd year B.Tech Computer Science student at Vignan's Institute of Information Technology, Visakhapatnam. I'm passionate about full stack web development and competitive programming. I enjoy building projects that solve real problems and constantly push myself to learn new technologies and frameworks.",
+    summary: "I'm Meesala Lokesh, a 3rd year B.Tech Computer Science student at Vignan's Institute of Information Technology, Visakhapatnam. I'm passionate about full stack web development and competitive programming. I enjoy building projects that solve real problems and constantly push myself to learn new technologies and frameworks.",
     goals: "My goal is to become a skilled Full Stack Developer and contribute to impactful software products. I'm currently focused on strengthening my DSA fundamentals, mastering the MERN stack, and building projects that make a difference. I also aim to contribute to open-source and land a great internship!",
   },
 
@@ -39,6 +39,7 @@ const DATA = {
       description: "Core languages I code in",
       items: [
         { name: "C", icon: "🔧", level: 80 },
+        { name: "C++", icon: "⚙️", level: 78 },
         { name: "Java", icon: "☕", level: 75 },
         { name: "Python", icon: "🐍", level: 72 },
         { name: "JavaScript (ES6+)", icon: "⚡", level: 78 },
@@ -70,14 +71,14 @@ const DATA = {
 
   projects: [
     {
-      title: "CRM Pro — Full-Stack Application",
-      description: "A production-ready Customer Relationship Management system featuring real-time authentication, lead management, and contact pipelines. Built with Node.js, React, and Supabase for high scalability.",
-      tags: ["React.js", "Node.js", "Express.js", "Supabase", "Tailwind CSS"],
-      github: "https://github.com/lokeshmeesala05-commits/FUTURE_FS_02",
-      live: "https://future-fs-02-h9a4yc1bu-lokeshmeesala05-commits-projects.vercel.app/",
-      color: "linear-gradient(135deg, #6366f1, #a855f7)",
-      image: "img/crm_project.png",
-      icon: "💼",
+      title: "EduShare — Educational Resource Platform",
+      description: "A comprehensive educational resource-sharing platform designed for students to access, search, and download study materials. Features voice search, role-based access, Supabase cloud storage, and offline capabilities.",
+      tags: ["React.js", "Tailwind CSS", "Supabase", "PostgreSQL", "PWA"],
+      github: "https://github.com/lokeshmeesala05-commits/edushare.git",
+      live: "https://edushare-mu.vercel.app/",
+      color: "linear-gradient(135deg, #3b82f6, #10b981)",
+      image: "img/edushare_project.png",
+      icon: "📚",
     },
     {
       title: "Personal Portfolio Website",
@@ -106,9 +107,11 @@ const DATA = {
       date: "2024 — Present",
       title: "B.Tech — Computer Science & Engineering",
       company: "Vignan's Institute of Information Technology, Visakhapatnam",
-      description: "Currently studying in 2nd year CSE.",
+      description: "Currently studying in 3rd year CSE.",
     },
     {
+
+      
       date: "2022 — 2024",
       title: "Intermediate (MPC)",
       company: "SR Junior College, Gajuwaka",
@@ -124,14 +127,20 @@ const DATA = {
 
   academics: [
     {
+      date: "B.Tech — 4th Semester",
+      title: "SGPA: 9.62",
+      company: "Vignan's Institute of Information Technology",
+      description: "",
+    },
+    {
       date: "B.Tech — 3rd Semester",
-      title: "SGPA: 9.21",
+      title: "SGPA: 9.25",
       company: "Vignan's Institute of Information Technology",
       description: "",
     },
     {
       date: "B.Tech — 2nd Semester",
-      title: "SGPA: 9.60",
+      title: "SGPA: 9.66",
       company: "Vignan's Institute of Information Technology",
       description: "",
     },
@@ -161,6 +170,7 @@ const DATA = {
   ],
 
   certificates: [
+    { name: "Design and Analysis of Algorithms (DAA)", icon: "🧮", file: "daa.jpeg" },
     { name: "HTML5", icon: "📄", file: "html.jpeg" },
     { name: "CSS3", icon: "🎨", file: "css.jpeg" },
     { name: "JavaScript Basic", icon: "⚡", file: "js1.jpeg" },
